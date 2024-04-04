@@ -1,0 +1,226 @@
+---
+title: "Emotional Misinformation Spreading" 
+author: "Hannah Metzler, Apeksha Shetty, Jula Lühring, David Garcia, Annie Waldherr"
+date: "9 April 2024"
+format: 
+  revealjs: 
+    transition: 'slide'
+    ## Defines the theme of the presentation, both version and style
+    theme: [default, custom.scss]
+    # incremental slides point by point
+    #incremental: true
+    aspect-ratio: 16:9
+    slide-number: true
+title-slide-attributes:
+    data-background-image: images/dalle_newspaper.webp
+    data-background-size: cover
+    data-background-opacity: "0.5"
+
+#editor
+editor: visual
+---
+
+## Introduction
+
+::: {columns}
+::: {.column width="50%"}
+```{r, fig.align='right'}
+knitr::include_graphics('images/factchecking.svg')
+```
+:::
+::: {.column width="35%"}
+```{r, fig.align='left'}
+knitr::include_graphics('images/pexels-alex-green-5699823.jpg')
+```
+:::
+:::
+
+-   Emotions attract attention & increase sharing
+-   Polarized group discussions on social media
+-   Beliefs are shaped by our social identity
+-   Existing interventions focus on accuracy
+
+## Research questions
+
+<center>
+
+::: columns
+::: {.column width="38%"}
+![](images/EmotionTimelines2020_Italy.svg)
+
+Observational social media analyses of emotional dynamics around news
+:::
+
+::: {.column width="28%"}
+Emotion regulation interventions ![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
+:::
+
+::: {.column width="28%"}
+![](images/communication-network.png) Agent-based modelling: network & algorithms
+:::
+:::
+
+</center>
+
+# Results & highlights
+
+## Do emotions increase manipulation?
+
+-   Pre-registered on-line study in Austria in Dec 2021
+-   Actual false & real COVID-19 news items: accuracy ratings
+-   Emotional state & emotional response to each news item
+
+<center>
+
+::: columns
+::: {.column width="40%"}
+![](images/N15.PNG)
+:::
+
+::: {.column width="40%"}
+![](images/NR14.PNG)
+:::
+:::
+
+</center>
+
+::: footer
+Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
+:::
+
+## People recognizing lies are angry
+
+```{r, out.width=1000, fig.align='center'}
+knitr::include_graphics("images/curvi-linear.svg")
+```
+
+-   Higher anger in people **good & bad** at recognizing false news
+-   Angry responses because most people **recognize** false news
+-   Emotions arise when information contradicts beliefs rooted in social identity
+
+::: footer
+Robust polynomial curves for news discernment & emotional responses.
+:::
+
+## Change of problem understanding
+
+-   Misinformation as a symptom of real-world societal problems:
+    -   reduced trust in politics, science, institutions
+    -   loss of privilege
+-   Emotions are usually functional, not irrational
+-   Crucial driver of misinformation: partisanship
+    -   Motivated belief in misinformation, not manipulation
+-   Minority of partisan users share misinformation
+-   Uninformed silent majority
+
+## Challenges to our project
+
+-   Emotions are a signal, not a cause
+-   Brief on-line interventions reducing emotions???
+
+### Solutions:
+
+-   Targeting openness to new information
+-   Targeting social identity
+
+## Beliefs incongruent with social identity
+
+::: columns
+::: {.column width="35%"}
+![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
+:::
+
+::: {.column width="60%"}
+-   Alternative medicine intervention:
+    -   History of right-wing extremist support
+    -   News articles from right-wing website
+-   Pre-post: Sympathy and trust ratings
+:::
+:::
+
+**Highlighting that current beliefs contrast with an important social identity reduces trust in alternative medicine. (r=0.6)**
+
+## Measuring misinformation: Newsguard
+
+-   Expert ratings of news sources on journalistic quality criteria
+-   Reliability for German Speaking context?
+
+::: footer
+Lühring, Shetty, Lazzaroni, Lasser & Metzler (in preparation).
+:::
+
+## Emotions on social media
+
+-   Analysis of discussion threads below tweets linking to News
+-   Causality: Emotions $\leftrightarrow$ Misinformation?
+-   Dataset with trustworthy and non-trustworthy articles that are very similar
+
+Coefficient plot
+
+::: footer
+Lühring, Shetty, Lasser, Garcia, Waldherr & Metzler (in prep.)
+:::
+
+## ABM highlight: Algorithmic interventions
+
+US politicians retweeting behavior
+
+![](images/ABM_algorithm_interventions.png)
+
+::: footer
+Shetty\*, Simmerdinger\*, Lühring, Garcia, Walherr & Metzler (in prep.)
+:::
+
+## Other highlights
+
+-   Presentations at leading conferences: ICA 2023, MISDOOM 2023, SPSP 2022, ...
+-   Chapter in a [public report](https://www.stockholmresilience.org/research/climate-misinformation.html) on climate misinformation
+-   [Video](https://www.youtube.com/watch?v=xpiiOqwGQa8) for the Digital Humanism series
+-   Many mentions in the media (DerStandard, Kurier, Science.ORF, Woman Balance...)
+-   And many upcoming public and media events:
+    -   Talks at klimaaktiv(Klimaschutz Ministerium) & Volkshochschule
+    -   ORF documentary, DERSTANDARD Podcast, Article in Spektrum der Wissenschaften
+
+## Institutional challenges
+
+::: columns
+::: {.column width="35%"}
+![](images/dalle_academia.webp){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+-   Collaboration across 3 teams
+-   Situation for early career PIs
+-   3-year Ph.D.s are short for methodologically challenging projects
+:::
+:::
+
+## Thank you!
+
+-   Project website: [hannahmetzler.eu/emomis](hannahmetzler.eu/emomis)
+
+<br>
+
+::: columns
+::: {.column width="33%"}
+```{r, echo=FALSE, out.width=210}
+knitr::include_graphics("logos/csh.png")
+```
+:::
+
+::: {.column width="33%"}
+```{r, echo=FALSE, out.height='90'}
+knitr::include_graphics("logos/uni_wien_logo_blue.jpg")
+```
+:::
+
+::: {.column width="33%"}
+```{r, echo=FALSE,  out.height='90'}
+knitr::include_graphics("logos/Meduni-wien.svg")
+```
+:::
+:::
+
+```{r, out.width=500, fig.align='center'}
+knitr::include_graphics("logos/WWTF_Text_RGB.svg")
+```
