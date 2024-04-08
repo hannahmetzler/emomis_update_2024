@@ -114,28 +114,43 @@ Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv]
 knitr::include_graphics("images/curvi-linear.svg")
 ```
 
+::: {.incremental}
 -   Higher anger in people **good & bad** at recognizing false news
 -   Angry responses because most people **recognize** false news
 -   Emotions arise when information contradicts existing beliefs
+
+:::
 
 ::: footer
 Robust polynomial curves for news discernment & emotional responses.
 :::
 
-# Challenges: Theoretical & institutional
+# Theoretical & Institutional Challenges
 
 ## Change of problem understanding
 
+::: {.incremental}
 - Emotions are **functional**
 - Humans are not gullible: **motivated belief** vs. manipulation
 - Misinformation as **symptom** of real-world societal problems
-- Motivated partisan minority shares misinformation
+- Motivated partisan **minority** shares misinformation
 - Majority: uninformed, little news interest & silent
+:::
+
+<br> 
+
+. . .
 
 <center>
 $\rightarrow$ **Questioning the role of emotions** <br>
+</center>
+
+. . .
+
+<center>
 $\rightarrow$ **Our solution: Targeting social dynamics & open-mindedness**
 </center>
+
 
 ::: notes
 -   reduced trust in politics, science, institutions
@@ -147,14 +162,18 @@ $\rightarrow$ **Our solution: Targeting social dynamics & open-mindedness**
 <br>
 
 ::: columns
-::: {.column width="35%"}
+::: {.column width="45%"}
 ![](images/dalle_academia.webp){fig-align="center"}
 :::
 
-::: {.column width="60%"}
+
+::: {.column width="55%"}
+::: {.incremental}
 -   Collaboration across 3 locations
 -   Situation for early career PIs
 -   3-year Ph.D.s are short for methodologically challenging projects
+:::
+
 :::
 :::
 
@@ -220,12 +239,16 @@ Low-trustworthy news: more anger & less joy (preliminary!)
 ![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
 :::
 ::: {.column width="50%"}
+
+::: {.incremental}
 - Goal: Increasing skepticism
 - How: <span style="color:green;">Beliefs</span> incongruent with <span style="color:red;">social identity</span>
 - <span style="color:green;">Complementary & Alternative Medicine (CAM)</span> vs. <span style="color:red;">right-wing extremism</span>
 - Intervention shows link with
   - historical information
   - news articles
+ 
+:::
 
 :::
 :::
@@ -233,6 +256,8 @@ Low-trustworthy news: more anger & less joy (preliminary!)
 ## Intervention effect on trust & sympathy
 
 ![](images/feelings_pre_post_with_stats.svg){fig-align="center" width="200"}
+
+. . .
 
 <center>
 Highlighting inconsistency of beliefs with social identity reduces trust & sympathy in alternative medicine.
@@ -242,6 +267,8 @@ Highlighting inconsistency of beliefs with social identity reduces trust & sympa
 ## Algorithm effects on news trustworthiness
 
 Agent-based model of US politicians' retweeting behavior
+
+. . .
 
 ![](images/ABM_algorithm_interventions.png)
 
@@ -259,11 +286,14 @@ Shetty\*, Simmerdinger\*, Lühring, Garcia, Walherr & Metzler (in prep.)
 
 ## Other highlights
 
+::: {.incremental}
 - 3 supervised internships + 2 Master theses
 - Presentations at leading conferences: ICA Toronto 2023, MISDOOM Amsterdam 2023, SPSP 2022 (online), ...
 - [EMOMIS Video](https://www.youtube.com/watch?v=xpiiOqwGQa8) for the Digital Humanism series
 - Chapter in a [public report](https://www.stockholmresilience.org/research/climate-misinformation.html) on climate misinformation
 - Media mentions (APA, DerStandard, Kurier, Science.ORF, FM4 news, Woman Balance...)
+
+...
 
 ## Upcoming outreach highlights
 
@@ -277,9 +307,14 @@ Shetty\*, Simmerdinger\*, Lühring, Garcia, Walherr & Metzler (in prep.)
 
 ## Thank you!
 
--   Project website: [hannahmetzler.eu/emomis](hannahmetzler.eu/emomis)
+- Project website: [hannahmetzler.eu/emomis](hannahmetzler.eu/emomis)
+- Preprint: [https://psyarxiv.com/udqms/](https://psyarxiv.com/udqms/).
 
 <br>
+
+```{r, out.width=500, fig.align='center'}
+knitr::include_graphics("logos/WWTF_Text_RGB.svg")
+```
 
 ::: columns
 ::: {.column width="33%"}
@@ -301,9 +336,6 @@ knitr::include_graphics("logos/Meduni-wien.svg")
 :::
 :::
 
-```{r, out.width=500, fig.align='center'}
-knitr::include_graphics("logos/WWTF_Text_RGB.svg")
-```
 
 # Appendix
 
