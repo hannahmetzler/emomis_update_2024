@@ -1,5 +1,5 @@
 ---
-title: "Emotional Misinformation Spreading" 
+title: "Emotions & Misinformation Spreading" 
 author: "Hannah Metzler, Apeksha Shetty, Jula Lühring, David Garcia, Annie Waldherr"
 date: "9 April 2024"
 format: 
@@ -11,38 +11,41 @@ format:
     #incremental: true
     aspect-ratio: 16:9
     slide-number: true
-title-slide-attributes:
-    data-background-image: images/dalle_newspaper.webp
-    data-background-size: cover
-    data-background-opacity: "0.5"
+# title-slide-attributes:
+#     data-background-image: images/dalle_newspaper.webp
+#     data-background-size: cover
+#     data-background-opacity: "0.5"
 
 #editor
 editor: visual
 ---
 
+# The Project
+
 ## Introduction
 
-::: {columns}
-::: {.column width="50%"}
-```{r, fig.align='right'}
-knitr::include_graphics('images/factchecking.svg')
-```
+::: {.columns}
+::: {.column width="30%"}
+![](images/pexels-alex-green-5699823.jpg)
 :::
-::: {.column width="35%"}
-```{r, fig.align='left'}
-knitr::include_graphics('images/pexels-alex-green-5699823.jpg')
-```
+::: {.column width="50%"}
+![](images/factchecking.svg){}
 :::
 :::
 
+::: {.incremental}
 -   Emotions attract attention & increase sharing
--   Polarized group discussions on social media
 -   Beliefs are shaped by our social identity
+-   Group & emotion dynamics are central on social media
 -   Existing interventions focus on accuracy
+
+:::
+
 
 ## Research questions
 
 <center>
+
 
 ::: columns
 ::: {.column width="38%"}
@@ -50,6 +53,7 @@ knitr::include_graphics('images/pexels-alex-green-5699823.jpg')
 
 Observational social media analyses of emotional dynamics around news
 :::
+
 
 ::: {.column width="28%"}
 Emotion regulation interventions ![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
@@ -62,33 +66,35 @@ Emotion regulation interventions ![](images/Facebook%20Post_Homeopathy_Intervent
 
 </center>
 
-# Results & highlights
+# Results & Highlights
 
-## Do emotions increase manipulation?
+## Do fake news elicit emotions?
 
--   Pre-registered on-line study in Austria in Dec 2021
--   Actual false & real COVID-19 news items: accuracy ratings
--   Emotional state & emotional response to each news item
+::: {.columns}
+::: {.column width="35%"}
+- COVID-19 news headlines
+- Austria 2021
+- Mood & response
+<br>
+- Response: 
+  - More anger
+  - Less joy
+  
+:::
+::: {.column width="60%"}
+![](images/emo_diff_plot_color.svg){width="500"}
 
-<center>
-
-::: columns
-::: {.column width="40%"}
-![](images/N15.PNG)
+:::
 :::
 
-::: {.column width="40%"}
-![](images/NR14.PNG)
-:::
-:::
 
-</center>
+
 
 ::: footer
 Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
 :::
 
-## People recognizing lies are angry
+## Do emotions increase susceptibility?
 
 ```{r, out.width=1000, fig.align='center'}
 knitr::include_graphics("images/curvi-linear.svg")
@@ -96,7 +102,7 @@ knitr::include_graphics("images/curvi-linear.svg")
 
 -   Higher anger in people **good & bad** at recognizing false news
 -   Angry responses because most people **recognize** false news
--   Emotions arise when information contradicts beliefs rooted in social identity
+-   Emotions arise when information contradicts existing beliefs
 
 ::: footer
 Robust polynomial curves for news discernment & emotional responses.
@@ -123,43 +129,66 @@ Robust polynomial curves for news discernment & emotional responses.
 -   Targeting openness to new information
 -   Targeting social identity
 
-## Beliefs incongruent with social identity
+## Measuring misinformation: NewsGuard
 
-::: columns
-::: {.column width="35%"}
-![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
-:::
+Expert ratings of news sources on 9 journalistic quality criteria
 
-::: {.column width="60%"}
--   Alternative medicine intervention:
-    -   History of right-wing extremist support
-    -   News articles from right-wing website
--   Pre-post: Sympathy and trust ratings
-:::
-:::
-
-**Highlighting that current beliefs contrast with an important social identity reduces trust in alternative medicine. (r=0.6)**
-
-## Measuring misinformation: Newsguard
-
--   Expert ratings of news sources on journalistic quality criteria
--   Reliability for German Speaking context?
+```{r, fig.width=10 }
+knitr::include_graphics('images/f2b-scores_over_time-violin.png')
+```
 
 ::: footer
 Lühring, Shetty, Lazzaroni, Lasser & Metzler (in preparation).
 :::
 
-## Emotions on social media
+## Emotions around news on Twitter
 
--   Analysis of discussion threads below tweets linking to News
--   Causality: Emotions $\leftrightarrow$ Misinformation?
--   Dataset with trustworthy and non-trustworthy articles that are very similar
+![](images/Twitter_daily_emotions.svg)
 
-Coefficient plot
+## Emotions around news on Twitter
 
+-   Discussion threads below tweets linking to newssources
+
+![](images/Twitter_daily_emotions.svg)
 ::: footer
 Lühring, Shetty, Lasser, Garcia, Waldherr & Metzler (in prep.)
 :::
+
+::: notes
+Dataset with trustworthy and non-trustworthy articles that are very similar
+:::
+---
+
+### Twitter emotions depend on news trustworthiness
+
+```{r}
+knitr::include_graphics('images/Twitter_daily_emotions_complete_true_false.png')
+```
+
+Low-trustworthy news: more anger & less joy (preliminary!)
+
+## Social identity intervention
+
+::: columns
+::: {.column width="45%"}
+![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
+:::
+::: {.column width="50%"}
+- Goal: Increasing skepticism in low quality information
+- Target: Beliefs incongruent with social identity
+- Intervention:
+  - History of CAM & right-wing extremism
+  - Articles from right-extreme news sources
+  
+:::
+:::
+
+## Reduces trust in alternative medicine only {.center}
+
+Highlighting inconsistency of beliefs with social identity reduces trust & sympathy in alternative medicine. 
+
+![](images/feelings_pre_post_with_stats.svg){fig-align="center" width="200"}
+
 
 ## ABM highlight: Algorithmic interventions
 
@@ -170,6 +199,9 @@ US politicians retweeting behavior
 ::: footer
 Shetty\*, Simmerdinger\*, Lühring, Garcia, Walherr & Metzler (in prep.)
 :::
+
+
+
 
 ## Other highlights
 
@@ -224,3 +256,22 @@ knitr::include_graphics("logos/Meduni-wien.svg")
 ```{r, out.width=500, fig.align='center'}
 knitr::include_graphics("logos/WWTF_Text_RGB.svg")
 ```
+
+# Appendix
+
+## COVID-misinformation items
+
+- Actual true & false COVID-19 headlines
+- From fact-checking websites & mainstream news sources
+- Accuracy ratings
+
+<center>
+::: columns
+::: {.column width="40%"}
+![](images/N15.PNG)
+:::
+::: {.column width="40%"}
+![](images/NR14.PNG)
+:::
+:::
+</center>
