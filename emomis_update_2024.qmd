@@ -1,4 +1,7 @@
 ---
+title: " Emotional misinformation spreading"
+author: "Apeksha Shetty, Jula Lühring, David Garcia, Annie Waldherr & Hannah Metzler <br> Complexity Science Hub Vienna &  University of Vienna <br> Slides: hannahmetzler.eu/emomis_update_2024"
+date: "9 April 2024"
 format: 
   revealjs: 
     seal: false
@@ -9,30 +12,14 @@ format:
     #incremental: true
     aspect-ratio: 16:9
     slide-number: true
-# title-slide-attributes:
-#     data-background-image: images/dalle_newspaper.webp
+title-slide-attributes:
+    data-background-color: "#1f5c99"
 #     data-background-size: cover
 #     data-background-opacity: "0.5"
 
 #editor
 editor: visual
 ---
-
-## Emotional misinformation spreading {background-color="#1f5c99"}
-
-<br>
-
-<center>
-**Apeksha Shetty, Jula Lühring, David Garcia, Annie Waldherr & Hannah Metzler**
-<br><br>
-
-*Complexity Science Hub Vienna &  University of Vienna*
-
-Project update 9 April 2024 <br>  <br>
-
-Slides: www.hannahmetzler.eu/emomis_update_2024
-
-</center>
 
 # The Project
 
