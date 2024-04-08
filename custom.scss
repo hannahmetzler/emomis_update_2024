@@ -19,9 +19,10 @@ $presentation-h3-font-size: 1em;
 }
 
 // more space between columns: 
+/*
 .column {
-  margin-right: 20px;
-};
+  margin-right: 10px;
+};*/
 //no slide number on title sldie
 .title-slide .remark-slide-number {
   display: none;

@@ -1,9 +1,7 @@
 ---
-title: "Emotions & Misinformation Spreading" 
-author: "Hannah Metzler, Apeksha Shetty, Jula Lühring, David Garcia, Annie Waldherr"
-date: "9 April 2024"
 format: 
   revealjs: 
+    seal: false
     transition: 'slide'
     ## Defines the theme of the presentation, both version and style
     theme: [default, custom.scss]
@@ -19,6 +17,22 @@ format:
 #editor
 editor: visual
 ---
+
+## Emotional misinformation spreading {background-color="#1f5c99"}
+
+<br>
+
+<center>
+**Apeksha Shetty, Jula Lühring, David Garcia, Annie Waldherr & Hannah Metzler**
+<br><br>
+
+*Complexity Science Hub Vienna &  University of Vienna*
+
+Project update 9 April 2024 <br>  <br>
+
+Slides: www.hannahmetzler.eu/emomis_update_2024
+
+</center>
 
 # The Project
 
@@ -66,7 +80,7 @@ Emotion regulation interventions ![](images/Facebook%20Post_Homeopathy_Intervent
 
 </center>
 
-# Results & Highlights
+# Results & Highlights (Part I)
 
 ## Do fake news elicit emotions?
 
@@ -108,34 +122,60 @@ knitr::include_graphics("images/curvi-linear.svg")
 Robust polynomial curves for news discernment & emotional responses.
 :::
 
+# Challenges: Theoretical & institutional
+
 ## Change of problem understanding
 
--   Misinformation as a symptom of real-world societal problems:
-    -   reduced trust in politics, science, institutions
-    -   loss of privilege
--   Emotions are usually functional, not irrational
--   Crucial driver of misinformation: partisanship
-    -   Motivated belief in misinformation, not manipulation
--   Minority of partisan users share misinformation
--   Uninformed silent majority
+- Emotions are **functional**
+- Humans are not gullible: **motivated belief** vs. manipulation
+- Misinformation as **symptom** of real-world societal problems
+- Motivated partisan minority shares misinformation
+- Majority: uninformed, little news interest & silent
 
-## Challenges to our project
+<center>
+$\rightarrow$ **Questioning the role of emotions** <br>
+$\rightarrow$ **Our solution: Targeting social dynamics & open-mindedness**
+</center>
 
--   Emotions are a signal, not a cause
--   Brief on-line interventions reducing emotions???
+::: notes
+-   reduced trust in politics, science, institutions
+-   loss of privilege/status
+:::
 
-### Solutions:
+## Institutional challenges
 
--   Targeting openness to new information
--   Targeting social identity
+<br>
+
+::: columns
+::: {.column width="35%"}
+![](images/dalle_academia.webp){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+-   Collaboration across 3 locations
+-   Situation for early career PIs
+-   3-year Ph.D.s are short for methodologically challenging projects
+:::
+:::
+
+# Results & Highlights (Part II)
 
 ## Measuring misinformation: NewsGuard
 
 Expert ratings of news sources on 9 journalistic quality criteria
 
-```{r, fig.width=10 }
-knitr::include_graphics('images/f2b-scores_over_time-violin.png')
+::: {.columns}
+::: {.column width="65%"}
+```{r, fig.width=9}
+knitr::include_graphics('images/f2b-scores_over_time-violin.svg')
 ```
+:::
+::: {.column width="35%"}
+- In-depth analysis
+- Increasing inclusion of low-trustworthy news
+- Includes German sources since 2019
+:::
+:::
 
 ::: footer
 Lühring, Shetty, Lazzaroni, Lasser & Metzler (in preparation).
@@ -143,13 +183,19 @@ Lühring, Shetty, Lazzaroni, Lasser & Metzler (in preparation).
 
 ## Emotions around news on Twitter
 
-![](images/Twitter_daily_emotions.svg)
+Discussion threads below tweets linking to news sources
 
-## Emotions around news on Twitter
 
--   Discussion threads below tweets linking to newssources
+::: {.columns}
+::: {.column width="70%"}
+![](images/Twitter_daily_emotions.svg){width=700}
+:::
+::: {.column width="30%"}
+- German speaking
+- Emotions: <br> Machine Learning
+:::
+:::
 
-![](images/Twitter_daily_emotions.svg)
 ::: footer
 Lühring, Shetty, Lasser, Garcia, Waldherr & Metzler (in prep.)
 :::
@@ -157,9 +203,9 @@ Lühring, Shetty, Lasser, Garcia, Waldherr & Metzler (in prep.)
 ::: notes
 Dataset with trustworthy and non-trustworthy articles that are very similar
 :::
----
 
-### Twitter emotions depend on news trustworthiness
+
+## Emotions depend on news trustworthiness
 
 ```{r}
 knitr::include_graphics('images/Twitter_daily_emotions_complete_true_false.png')
@@ -174,25 +220,28 @@ Low-trustworthy news: more anger & less joy (preliminary!)
 ![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
 :::
 ::: {.column width="50%"}
-- Goal: Increasing skepticism in low quality information
-- Target: Beliefs incongruent with social identity
-- Intervention:
-  - History of CAM & right-wing extremism
-  - Articles from right-extreme news sources
-  
+- Goal: Increasing skepticism
+- How: <span style="color:green;">Beliefs</span> incongruent with <span style="color:red;">social identity</span>
+- <span style="color:green;">Complementary & Alternative Medicine (CAM)</span> vs. <span style="color:red;">right-wing extremism</span>
+- Intervention shows link with
+  - historical information
+  - news articles
+
 :::
 :::
 
-## Reduces trust in alternative medicine only {.center}
-
-Highlighting inconsistency of beliefs with social identity reduces trust & sympathy in alternative medicine. 
+## Intervention effect on trust & sympathy
 
 ![](images/feelings_pre_post_with_stats.svg){fig-align="center" width="200"}
 
+<center>
+Highlighting inconsistency of beliefs with social identity reduces trust & sympathy in alternative medicine.
+</center>
 
-## ABM highlight: Algorithmic interventions
 
-US politicians retweeting behavior
+## Algorithm effects on news trustworthiness
+
+Agent-based model of US politicians' retweeting behavior
 
 ![](images/ABM_algorithm_interventions.png)
 
@@ -200,32 +249,31 @@ US politicians retweeting behavior
 Shetty\*, Simmerdinger\*, Lühring, Garcia, Walherr & Metzler (in prep.)
 :::
 
+::: notes
+- most of the news are trustworthy
+- Most effective: down-ranking low trustworthy posts
+- Downranking anger: increases trustworthy posts
+- Combining interventions is best
 
-
+:::
 
 ## Other highlights
 
--   Presentations at leading conferences: ICA 2023, MISDOOM 2023, SPSP 2022, ...
--   Chapter in a [public report](https://www.stockholmresilience.org/research/climate-misinformation.html) on climate misinformation
--   [Video](https://www.youtube.com/watch?v=xpiiOqwGQa8) for the Digital Humanism series
--   Many mentions in the media (DerStandard, Kurier, Science.ORF, Woman Balance...)
--   And many upcoming public and media events:
-    -   Talks at klimaaktiv(Klimaschutz Ministerium) & Volkshochschule
-    -   ORF documentary, DERSTANDARD Podcast, Article in Spektrum der Wissenschaften
+- 3 supervised internships + 2 Master theses
+- Presentations at leading conferences: ICA Toronto 2023, MISDOOM Amsterdam 2023, SPSP 2022 (online), ...
+- [EMOMIS Video](https://www.youtube.com/watch?v=xpiiOqwGQa8) for the Digital Humanism series
+- Chapter in a [public report](https://www.stockholmresilience.org/research/climate-misinformation.html) on climate misinformation
+- Media mentions (APA, DerStandard, Kurier, Science.ORF, FM4 news, Woman Balance...)
 
-## Institutional challenges
+## Upcoming outreach highlights
 
-::: columns
-::: {.column width="35%"}
-![](images/dalle_academia.webp){fig-align="center"}
-:::
-
-::: {.column width="60%"}
--   Collaboration across 3 teams
--   Situation for early career PIs
--   3-year Ph.D.s are short for methodologically challenging projects
-:::
-:::
+- Upcoming talks 
+  - [klimaaktiv](https://www.klimaaktiv.at/bildung/klimadialog/webinare.html) (Bundesministerium für Klimaschutz, May)
+  - Volkshochschule (September)
+- Upcoming media highlights
+  - ORF documentary
+  - DERSTANDARD Podcast
+  - Article in Spektrum der Wissenschaften
 
 ## Thank you!
 
