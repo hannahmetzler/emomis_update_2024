@@ -109,12 +109,12 @@ knitr::include_graphics("images/curvi-linear.svg")
 :::
 
 ::: footer
-Robust polynomial curves for news discernment & emotional responses.
+Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
 :::
 
 # Theoretical & Institutional Challenges
 
-## Change of problem understanding
+## Theory: Change of problem understanding
 
 ::: {.incremental}
 - Emotions are **functional**
@@ -274,13 +274,13 @@ Shetty\*, Simmerdinger\*, Lühring, Garcia, Walherr & Metzler (in prep.)
 ## Other highlights
 
 ::: {.incremental}
+
 - 3 supervised internships + 2 Master theses
 - Presentations at leading conferences: ICA Toronto 2023, MISDOOM Amsterdam 2023, SPSP 2022 (online), ...
 - [EMOMIS Video](https://www.youtube.com/watch?v=xpiiOqwGQa8) for the Digital Humanism series
 - Chapter in a [public report](https://www.stockholmresilience.org/research/climate-misinformation.html) on climate misinformation
 - Media mentions (APA, DerStandard, Kurier, Science.ORF, FM4 news, Woman Balance...)
-
-...
+:::
 
 ## Upcoming outreach highlights
 
