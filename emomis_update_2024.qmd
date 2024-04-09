@@ -82,8 +82,12 @@ Emotion regulation interventions ![](images/Facebook%20Post_Homeopathy_Intervent
   - Less joy
   
 :::
+
 ::: {.column width="60%"}
+
+::: {.fragment}
 ![](images/emo_diff_plot_color.svg){width="500"}
+:::
 
 :::
 :::
@@ -203,11 +207,11 @@ Discussion threads below tweets linking to news sources
 :::
 
 ::: footer
-Lühring, Shetty, Lasser, Garcia, Waldherr & Metzler (in prep.)
+Lühring, Hapig, Shetty, Garcia, Waldherr & Metzler (in prep.)
 :::
 
 ::: notes
-Dataset with trustworthy and non-trustworthy articles that are very similar
+Causality: Matching, dataset with trustworthy and non-trustworthy articles that are very similar
 :::
 
 
@@ -218,6 +222,11 @@ knitr::include_graphics('images/Twitter_daily_emotions_complete_true_false.png')
 ```
 
 Low-trustworthy news: more anger & less joy (preliminary!)
+
+::: footer
+N = Non-trustworthy
+T = Trustworthy
+:::
 
 ## Social identity intervention
 
@@ -295,9 +304,8 @@ Shetty\*, Simmerdinger\*, Lühring, Garcia, Walherr & Metzler (in prep.)
 ## Thank you!
 
 - Project website: [hannahmetzler.eu/emomis](hannahmetzler.eu/emomis)
-- Preprint: [https://psyarxiv.com/udqms/](https://psyarxiv.com/udqms/).
-
-<br>
+- Preprint: [Emotions in misinformation studies](https://psyarxiv.com/udqms/).
+- Paper: [Social drivers & algorithmic mechanisms on digital media](https://doi.org/10.1177/17456916231185057)
 
 ```{r, out.width=500, fig.align='center'}
 knitr::include_graphics("logos/WWTF_Text_RGB.svg")
