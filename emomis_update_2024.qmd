@@ -153,12 +153,12 @@ $\rightarrow$ **Our solution: Targeting social dynamics & open-mindedness**
 <br>
 
 ::: columns
-::: {.column width="45%"}
+::: {.column width="50%"}
 ![](images/dalle_academia.webp){fig-align="center"}
 :::
 
 
-::: {.column width="55%"}
+::: {.column width="50%"}
 ::: {.incremental}
 -   Collaboration across 3 locations
 -   Situation for early career PIs
@@ -181,6 +181,7 @@ knitr::include_graphics('images/f2b-scores_over_time-violin.svg')
 ```
 :::
 ::: {.column width="35%"}
+- Trustworthiness score per source
 - In-depth analysis
 - Increasing inclusion of low-trustworthy news
 - Includes German sources since 2019
