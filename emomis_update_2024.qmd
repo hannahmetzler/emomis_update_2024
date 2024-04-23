@@ -141,6 +141,7 @@ Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv]
 ![](images/dalle_academia.webp){fig-align="center"}
 :::
 
+
 ::: {.column width="55%"}
 ::: incremental
 -   Collaboration across 3 locations
@@ -164,6 +165,7 @@ knitr::include_graphics('images/f2b-scores_over_time-violin.svg')
 :::
 
 ::: {.column width="35%"}
+-   Trustworthiness score per source
 -   In-depth analysis
 -   Increasing inclusion of low-trustworthy news
 -   Includes German sources since 2019
