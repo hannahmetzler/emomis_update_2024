@@ -25,28 +25,26 @@ editor: visual
 
 ## Introduction
 
-::: {.columns}
+::: columns
 ::: {.column width="30%"}
 ![](images/pexels-alex-green-5699823.jpg)
 :::
+
 ::: {.column width="50%"}
-![](images/factchecking.svg){}
+![](images/factchecking.svg)
 :::
 :::
 
-::: {.incremental}
+::: incremental
 -   Emotions attract attention & increase sharing
 -   Beliefs are shaped by our social identity
 -   Group & emotion dynamics are central on social media
 -   Existing interventions focus on accuracy
-
 :::
-
 
 ## Research questions
 
 <center>
-
 
 ::: columns
 ::: {.column width="38%"}
@@ -54,7 +52,6 @@ editor: visual
 
 Observational social media analyses of emotional dynamics around news
 :::
-
 
 ::: {.column width="28%"}
 Emotion regulation interventions ![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
@@ -71,29 +68,22 @@ Emotion regulation interventions ![](images/Facebook%20Post_Homeopathy_Intervent
 
 ## Do fake news elicit emotions?
 
-::: {.columns}
+::: columns
 ::: {.column width="35%"}
-- COVID-19 news headlines
-- Austria 2021
-- Mood & response
-<br>
-- Response: 
-  - More anger
-  - Less joy
-  
+-   COVID-19 news headlines
+-   Austria 2021
+-   Mood & response <br>
+-   Response:
+    -   More anger
+    -   Less joy
 :::
 
 ::: {.column width="60%"}
-
-::: {.fragment}
+::: fragment
 ![](images/emo_diff_plot_color.svg){width="500"}
 :::
-
 :::
 :::
-
-
-
 
 ::: footer
 Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
@@ -105,11 +95,10 @@ Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv]
 knitr::include_graphics("images/curvi-linear.svg")
 ```
 
-::: {.incremental}
+::: incremental
 -   Higher anger in people **good & bad** at recognizing false news
 -   Angry responses because most people **recognize** false news
 -   Emotions arise when information contradicts existing beliefs
-
 :::
 
 ::: footer
@@ -120,28 +109,23 @@ Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv]
 
 ## Theory: Change of problem understanding
 
-::: {.incremental}
-- Emotions are **functional**
-- Humans are not gullible: **motivated belief** vs. manipulation
-- Misinformation as **symptom** of real-world societal problems
-- Motivated partisan **minority** shares misinformation
-- Majority: uninformed, little news interest & silent
+::: incremental
+-   Emotions are **functional**
+-   Humans are not gullible: **motivated belief** vs. manipulation
+-   Misinformation as **symptom** of real-world societal problems
+-   Motivated partisan **minority** shares misinformation
+-   Majority: uninformed, little news interest & silent
 :::
 
-<br> 
+<br>
 
 . . .
 
-<center>
-$\rightarrow$ **Questioning the role of emotions** <br>
-</center>
+<center>$\rightarrow$ **Questioning the role of emotions** <br></center>
 
 . . .
 
-<center>
-$\rightarrow$ **Our solution: Targeting social dynamics & open-mindedness**
-</center>
-
+<center>$\rightarrow$ **Our solution: Targeting social dynamics & open-mindedness**</center>
 
 ::: notes
 -   reduced trust in politics, science, institutions
@@ -157,14 +141,12 @@ $\rightarrow$ **Our solution: Targeting social dynamics & open-mindedness**
 ![](images/dalle_academia.webp){fig-align="center"}
 :::
 
-
 ::: {.column width="55%"}
-::: {.incremental}
+::: incremental
 -   Collaboration across 3 locations
 -   Situation for early career PIs
 -   3-year Ph.D.s are short for methodologically challenging projects
 :::
-
 :::
 :::
 
@@ -174,16 +156,17 @@ $\rightarrow$ **Our solution: Targeting social dynamics & open-mindedness**
 
 Expert ratings of news sources on 9 journalistic quality criteria
 
-::: {.columns}
+::: columns
 ::: {.column width="65%"}
 ```{r, fig.width=9}
 knitr::include_graphics('images/f2b-scores_over_time-violin.svg')
 ```
 :::
+
 ::: {.column width="35%"}
-- In-depth analysis
-- Increasing inclusion of low-trustworthy news
-- Includes German sources since 2019
+-   In-depth analysis
+-   Increasing inclusion of low-trustworthy news
+-   Includes German sources since 2019
 :::
 :::
 
@@ -195,14 +178,14 @@ Lühring, Shetty, Lazzaroni, Lasser & Metzler (in preparation).
 
 Discussion threads below tweets linking to news sources
 
-
-::: {.columns}
+::: columns
 ::: {.column width="70%"}
-![](images/Twitter_daily_emotions.svg){width=700}
+![](images/Twitter_daily_emotions.svg){width="700"}
 :::
+
 ::: {.column width="30%"}
-- German speaking
-- Emotions: <br> Machine Learning
+-   German speaking
+-   Emotions: <br> Machine Learning
 :::
 :::
 
@@ -214,7 +197,6 @@ Lühring, Hapig, Shetty, Garcia, Waldherr & Metzler (in prep.)
 Causality: Matching, dataset with trustworthy and non-trustworthy articles that are very similar
 :::
 
-
 ## Emotions depend on news trustworthiness
 
 ```{r}
@@ -224,8 +206,7 @@ knitr::include_graphics('images/Twitter_daily_emotions_complete_true_false.png')
 Low-trustworthy news: more anger & less joy (preliminary!)
 
 ::: footer
-N = Non-trustworthy
-T = Trustworthy
+N = Non-trustworthy T = Trustworthy
 :::
 
 ## Social identity intervention
@@ -234,18 +215,16 @@ T = Trustworthy
 ::: {.column width="45%"}
 ![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
 :::
+
 ::: {.column width="50%"}
-
-::: {.incremental}
-- Goal: Increasing skepticism
-- How: <span style="color:green;">Beliefs</span> incongruent with <span style="color:red;">social identity</span>
-- <span style="color:green;">Complementary & Alternative Medicine (CAM)</span> vs. <span style="color:red;">right-wing extremism</span>
-- Intervention shows link with
-  - historical information
-  - news articles
- 
+::: incremental
+-   Goal: Increasing skepticism
+-   How: [Beliefs]{style="color:green;"} incongruent with [social identity]{style="color:red;"}
+-   [Complementary & Alternative Medicine (CAM)]{style="color:green;"} vs. [right-wing extremism]{style="color:red;"}
+-   Intervention shows link with
+    -   historical information
+    -   news articles
 :::
-
 :::
 :::
 
@@ -255,10 +234,7 @@ T = Trustworthy
 
 . . .
 
-<center>
-Highlighting inconsistency of beliefs with social identity reduces trust & sympathy in alternative medicine.
-</center>
-
+<center>Highlighting inconsistency of beliefs with social identity reduces trust & sympathy in alternative medicine.</center>
 
 ## Algorithm effects on news trustworthiness
 
@@ -273,39 +249,37 @@ Shetty\*, Simmerdinger\*, Lühring, Garcia, Walherr & Metzler (in prep.)
 :::
 
 ::: notes
-- most of the news are trustworthy
-- Most effective: down-ranking low trustworthy posts
-- Downranking anger: increases trustworthy posts
-- Combining interventions is best
-
+-   most of the news are trustworthy
+-   Most effective: down-ranking low trustworthy posts
+-   Downranking anger: increases trustworthy posts
+-   Combining interventions is best
 :::
 
 ## Other highlights
 
-::: {.incremental}
-
-- 3 supervised internships + 2 Master theses
-- Presentations at leading conferences: ICA Toronto 2023, MISDOOM Amsterdam 2023, SPSP 2022 (online), ...
-- [EMOMIS Video](https://www.youtube.com/watch?v=xpiiOqwGQa8) for the Digital Humanism series
-- Chapter in a [public report](https://www.stockholmresilience.org/research/climate-misinformation.html) on climate misinformation
-- Media mentions (APA, DerStandard, Kurier, Science.ORF, FM4 news, Woman Balance...)
+::: incremental
+-   3 supervised internships + 2 Master theses
+-   Presentations at leading conferences: ICA Toronto 2023, MISDOOM Amsterdam 2023, SPSP 2022 (online), ...
+-   [EMOMIS Video](https://www.youtube.com/watch?v=xpiiOqwGQa8) for the Digital Humanism series
+-   Chapter in a [public report](https://www.stockholmresilience.org/research/climate-misinformation.html) on climate misinformation
+-   Media mentions (APA, DerStandard, Kurier, Science.ORF, FM4 news, Woman Balance...)
 :::
 
 ## Upcoming outreach highlights
 
-- Upcoming talks 
-  - [klimaaktiv](https://www.klimaaktiv.at/bildung/klimadialog/webinare.html) (Bundesministerium für Klimaschutz, May)
-  - Volkshochschule (September)
-- Upcoming media highlights
-  - ORF documentary
-  - DERSTANDARD Podcast
-  - Article in Spektrum der Wissenschaften
+-   Upcoming talks
+    -   [klimaaktiv](https://www.klimaaktiv.at/bildung/klimadialog/webinare.html) (Bundesministerium für Klimaschutz, May)
+    -   Volkshochschule (September)
+-   Upcoming media highlights
+    -   ORF documentary
+    -   DERSTANDARD Podcast
+    -   Article in Spektrum der Wissenschaften
 
 ## Thank you!
 
-- Project website: [hannahmetzler.eu/emomis](hannahmetzler.eu/emomis)
-- Preprint: [Emotions in misinformation studies](https://psyarxiv.com/udqms/).
-- Paper: [Social drivers & algorithmic mechanisms on digital media](https://doi.org/10.1177/17456916231185057)
+-   Project website: [hannahmetzler.eu/emomis](hannahmetzler.eu/emomis)
+-   Preprint: [Emotions in misinformation studies](https://psyarxiv.com/udqms/).
+-   Paper: [Social drivers & algorithmic mechanisms on digital media](https://doi.org/10.1177/17456916231185057)
 
 ```{r, out.width=500, fig.align='center'}
 knitr::include_graphics("logos/WWTF_Text_RGB.svg")
@@ -331,22 +305,24 @@ knitr::include_graphics("logos/Meduni-wien.svg")
 :::
 :::
 
-
 # Appendix
 
 ## COVID-misinformation items
 
-- Actual true & false COVID-19 headlines
-- From fact-checking websites & mainstream news sources
-- Accuracy ratings
+-   Actual true & false COVID-19 headlines
+-   From fact-checking websites & mainstream news sources
+-   Accuracy ratings
 
 <center>
+
 ::: columns
 ::: {.column width="40%"}
 ![](images/N15.PNG)
 :::
+
 ::: {.column width="40%"}
 ![](images/NR14.PNG)
 :::
 :::
+
 </center>
