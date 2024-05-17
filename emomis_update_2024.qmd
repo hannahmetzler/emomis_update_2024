@@ -105,7 +105,7 @@ knitr::include_graphics("images/curvi-linear.svg")
 Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
 :::
 
-# Theoretical & Institutional Challenges
+# Theoretical & Institutional Challenges {visibility=hidden}
 
 ## Theory: Change of problem understanding
 
@@ -132,7 +132,7 @@ Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv]
 -   loss of privilege/status
 :::
 
-## Institutional challenges
+## Institutional challenges {visibility=hidden}
 
 <br>
 
@@ -140,7 +140,6 @@ Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv]
 ::: {.column width="45%"}
 ![](images/dalle_academia.webp){fig-align="center"}
 :::
-
 
 ::: {.column width="55%"}
 ::: incremental
